@@ -1,0 +1,35 @@
+.bg-shipping {
+    background-color: #fff;
+}
+
+.p-5 {
+    /* margin-right: 0 !important; */
+    padding-right: 0 !important;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-md,
+    tr.hidden-md,
+    th.hidden-md,
+    td.hidden-md {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden-xs,
+    tr.hidden-xs,
+    th.hidden-xs,
+    td.hidden-xs {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-sm,
+    tr.hidden-sm,
+    th.hidden-sm,
+    td.hidden-sm {
+        display: none !important;
+    }
+}

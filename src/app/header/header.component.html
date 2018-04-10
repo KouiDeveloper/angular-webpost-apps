@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-header fixed-top">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="collapse_target">
+        <!-- <a class="navbar-brand"><img src="../../assets/images/k_logo.png" style="height:70px"></a> -->
+        <span class="navbar-text">Laos Store</span>
+
+        <div class="dropdown border-right-0">
+            <button class="btn-font-color btn-custom-Departments dropdown-toggle border-right-0" type="button" id="dropsingin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bars"></i> Menu
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropsingin">
+                <button class="dropdown-item" type="button" onClick="window.location.reload()" [routerLink]="['/index']">index</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/profile']">profile</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/store']">Store</button>
+                <button class="dropdown-item" type="button" onClick="window.location.reload()" [routerLink]="['/productdetails']">ProductDetails</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/clientproductdetail']">ClientProductDetails</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/clientstore']">ClientStore</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/admin']">Admin</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/admin-promotion-ads']">AdminSearch</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/forgotpassword']">ForgotPassword</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/changepassword']">Changepassword</button>
+                <button class="dropdown-item" type="button" [routerLink]="['/datepicker']">Test</button>
+            </div>
+        </div>
+        <div class="col-lg-7 col-md-5 col-12">
+            <form action="">
+                <div class="input-group">
+                    <div class="dropdown ">
+                        <button class="btn-font-color btn-custom-all dropdown-toggle border-right-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fab fa-accusoft"></i> All
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control border-left-0 border-right-0" placeholder="Search" name="search">
+                    <div class="input-group-btn">
+                        <button class="btn-font-color-search btn-search" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <ul class="navbar-nav head-right-fonts">
+            <li class="navbar-item">
+                <a class="nav-link text-center change-head-right-color" onClick="window.location.reload()" [routerLink]="['/reorder']"><i class="fas fa-users"></i> <br>Quick Shopping</a>
+            </li>
+            <li class="dropdown navbar-item border-right-0" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#" class="nav-link text-center change-head-right-color"><i class="fas fa-users"></i> 
+                    <br>Sign In</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button" id="head-drop-font" [routerLink]="['/login']"><i class="fas fa-user"></i> Sign In</button>
+                    <button class="dropdown-item" type="button" id="head-drop-font" [routerLink]="['/register']"><i class="far fa-registered"></i> Register</button>
+                    <hr>
+                    <button class="dropdown-item" type="button" id="head-drop-font"><i class="far fa-address-book"></i> For Admin</button>
+                </div>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link text-center change-head-right-color" onClick="window.location.reload()" [routerLink]="['/index']"><i class="fas fa-shopping-cart "></i> <br>Cart</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="mt-6"></div>

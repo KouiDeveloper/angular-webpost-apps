@@ -1,0 +1,8 @@
+ngb-rating.d-inline-flex {
+    color: #ff932d;
+}
+
+ngb-rating.d-inline-flex.sr-only {
+    border-color: #fb3c00 !important;
+    border: 5px solid !important;
+}

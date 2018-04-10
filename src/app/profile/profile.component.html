@@ -1,0 +1,112 @@
+<div class="container border-register">
+    <h3 class="text-center display-7 mb-4">Web Post <i class="fas fa-leaf" id="register-color-icon"></i></h3>
+    <h1 class=" langlao display-5 text-center mb-5">ຂໍ້ມູນສ່ວນຕົວ</h1>
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+            <img src="../../assets/images/2.png" alt="" width="100%">
+            <hr>
+            <div class="d-flex justify-content-center">
+                <form class="form-group" id="formupload" class="uploadImage" enctype="multipart/form-data" action="http://nonav.net:4000/upload_img" method="POST">
+                    <label id='uploadphoto' class="btn  border-top-0 border-left-0 border-right-0 buttonhover main-bg-color langlao"><i class="fas fa-cloud-upload-alt"></i> ອັບໂຫລດຮູບພາບ 
+                  <input type="file" name="file_up" id="file_up" hidden>
+                </label>
+                    <label id='save' class="btn  border-top-0 border-left-0 border-right-0 buttonhover main-bg-color langlao"><i class="far fa-save"></i> ບັນທຶກ 
+                  <input type="submit" name="submit" hidden>
+                </label>
+                </form>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+            <form action="">
+                <div class="row mt-3">
+                    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-3 col-12">
+                        <label id='name' class="mt-2 langlao" for="Storename">ລະຫັດສິນຄ້າ:</label>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-10 col-sm-9 col-12 input_store">
+                        <input class="form-control" type="text" name="" id="storename" value="">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-3 col-12">
+                        <label id='name' class="mt-2 langlao" for="Storename">ລາຄາສິນຄ້າ:</label>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-10 col-sm-9 col-12 input_store">
+                        <input class="form-control" type="text" name="" id="storename" value="">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-3 col-12">
+                        <label id='name' class="mt-2 langlao" for="Storename">ເນື້ອໃນສິນຄ້າ:</label>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-10 col-sm-9 col-12 input_store">
+                        <input class="form-control" type="text" name="" id="storename" value="">
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <button type="submit" class="col-12 btn main-bg-color">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row mt-6">
+        <div class="col-12" style="width:100%;">
+            <form method="POST" action="">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="profile-icon-control">
+    <p class="text-center mt-4">
+        <a class="" href="#" class="main-icon-color" id="profile-icon"><i class="fas fa-plus-circle"></i></a>
+        <a class="" href="#" class="main-icon-color" id="profile-icon"><i class="far fa-edit"></i></a>
+        <a class="" href="#" class="main-icon-color" id="profile-icon"><i class="far fa-trash-alt"></i></a>
+        <a class="" href="#" class="main-icon-color" id="profile-icon"><i class="far fa-save"></i></a>
+    </p>
+</div>
+<div class="profile-navigation d-flex justify-content-center mt-4">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link main-icon-color langlao" href="#">ກັບຄືນ</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link langlao" href="#">ຕໍ່ໄປ</a></li>
+        </ul>
+    </nav>
+</div>
